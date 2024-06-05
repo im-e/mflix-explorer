@@ -24,6 +24,7 @@
                 <table>
                     <thead>
                     <tr>
+                        <th>Poster</th>
                         <th>Title</th>
                         <th>FullPlot</th>
                         <th>Genre</th>
@@ -38,6 +39,9 @@
                     </thead>
                     <tbody>
                     <tr th:each="movie : ${movies}">
+                        <td>
+                            <img th:src="${movie.poster}" alt="">
+                        </td>
                         <td>
                             <a th:href="@{/movie/{id}(id=${movie.id})}" th:text="${movie.title}">N/A</a>
                         </td>
