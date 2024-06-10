@@ -6,7 +6,6 @@ import java.util.Optional;
 
 import com.ime.mflix.model.entities.Comment;
 import com.ime.mflix.model.exception.comments.*;
-import org.sparta.tech259.finalproject.model.exception.comments.*;
 import com.ime.mflix.service.CommentService;
 import org.springframework.web.bind.annotation.*;
 

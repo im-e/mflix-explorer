@@ -3,7 +3,6 @@ package com.ime.mflix.controller.web;
 import com.ime.mflix.model.entities.Theater;
 import com.ime.mflix.model.entities.TheaterDto;
 import com.ime.mflix.service.TheaterService;
-import org.sparta.tech259.finalproject.model.entities.*;
 import com.ime.mflix.model.exception.theater.TheaterIdDoesNotExistsException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
